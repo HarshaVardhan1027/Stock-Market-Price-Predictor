@@ -1,10 +1,11 @@
 # Stock Price Predictor (LSTM)
 
-A Python tool to forecast Indian stock prices using LSTM.
+A Python-based tool to forecast stock prices for Indian stocks using **LSTM**.  
+Users can enter a stock name or symbol and the number of days to forecast. The tool predicts realistic stock prices using **log-returns** to avoid unrealistic spikes.
 
-## How to Run
-
-Click the badge below to open the notebook in Google Colab.  
-You can run all cells and experiment freely. Changes **will not affect the original repository**.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HarshaVardhan1027/Stock-Market-Price-Predictor/blob/main/src/stock_predictor.ipynb)
+## Features
+- Predicts next N days of stock prices
+- Uses 5 years of historical data from Yahoo Finance
+- LSTM model trained on log-returns for stable predictions
+- Plots historical and forecasted prices
+- Outputs forecast rounded to 2 decimal places
